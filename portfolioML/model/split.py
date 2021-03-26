@@ -141,13 +141,3 @@ if __name__ == "__main__":
     data = np.linspace(10,900,90)
     X_train, y_train = split_sequences(df_returns, df_binary)
     periods_returns, periods_binary = split_Tperiod(df_returns, df_binary)
-
-    # utile per fare il test della funzione get_train_set
-    # a = list((list_tot[i] for i in range(list_tot.shape[0])))
-    # a_list = np.vstack(a)
-    # print(a_list.shape)
-
-    # print(list_toty.shape)
-    # list_tot = np.reshape(list_toty,(list_toty.shape[0]*list_toty.shape[1]))
-    # print(list_tot.shape)
-    # print(a_list == list_tot)
